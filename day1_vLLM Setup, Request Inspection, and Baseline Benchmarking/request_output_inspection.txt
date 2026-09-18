@@ -1,0 +1,32 @@
+=== RequestOutput Inspection ===
+
+Request ID: 0
+Prompt: Explain in one sentence what a KV cache is in LLM inference.
+Prompt token count: 15
+Finished: True
+Generated text:  A KV cache in LLM inference refers to a type of memory used to store and retrieve key-value pairs, which helps in speeding up the inference process by reducing the number of lookups and computations required.
+Generated token IDs: [362, 84648, 6500, 304, 444, 10994, 44378, 19257, 311, 264, 943, 315, 4938, 1483, 311, 3553, 323, 17179, 1376, 19083, 13530, 11, 892, 8609, 304, 57575, 705, 279, 44378, 1882, 553, 17719, 279, 1372, 315, 1401, 8602, 323, 82599, 2567, 13, 151643]
+Generated token count: 42
+Finish reason: stop
+------------------------------------------------------------
+Request ID: 1
+Prompt: Why can continuous batching improve GPU utilization?
+Prompt token count: 8
+Finished: True
+Generated text:  Continuous batching can improve GPU utilization because it allows the GPU to process multiple batches of data in parallel, rather than processing each batch sequentially. This can lead to faster overall processing times and higher utilization of the GPU's resources. Additionally, continuous batching can help to reduce the amount of time that the GPU spends waiting for data to
+Generated token IDs: [68967, 84256, 646, 7269, 22670, 49449, 1576, 432, 6147, 279, 22670, 311, 1882, 5248, 44792, 315, 821, 304, 15279, 11, 4751, 1091, 8692, 1817, 7162, 94559, 13, 1096, 646, 2990, 311, 10596, 8084, 8692, 3039, 323, 5080, 49449, 315, 279, 22670, 594, 4963, 13, 22406, 11, 19259, 84256, 646, 1492, 311, 7949, 279, 3311, 315, 882, 429, 279, 22670, 37102, 8580, 369, 821, 311]
+Generated token count: 64
+Finish reason: length
+------------------------------------------------------------
+
+=== Offline Latency Benchmark ===
+
+Short prompt:
+Mean latency: 0.9389 s
+Mean output tokens: 64.00
+Raw latencies: [0.9360986039996533, 0.9422314059997916, 0.9384975130001294]
+
+Long prompt:
+Mean latency: 1.1869 s
+Mean output tokens: 64.00
+Raw latencies: [1.4734465309998086, 1.0433566420001625, 1.0440191809998396]
