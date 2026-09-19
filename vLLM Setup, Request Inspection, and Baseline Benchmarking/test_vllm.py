@@ -24,7 +24,7 @@ prompts = [
 # sampling_params = ...
 # ============================================================
 
-sampling_params = SamplingParams(temperature=0.0, 
+sampling_params = SamplingParams(temperature=0.0,
                                  max_tokens=64)
 
 # ============================================================

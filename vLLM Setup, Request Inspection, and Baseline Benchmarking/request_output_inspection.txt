@@ -22,11 +22,11 @@ Finish reason: length
 === Offline Latency Benchmark ===
 
 Short prompt:
-Mean latency: 0.9389 s
+Mean latency: 0.9315 s
 Mean output tokens: 64.00
-Raw latencies: [0.9360986039996533, 0.9422314059997916, 0.9384975130001294]
+Raw latencies: [0.9316504929997791, 0.9312026889997469, 0.9315679520000231]
 
 Long prompt:
-Mean latency: 1.1869 s
+Mean latency: 1.1780 s
 Mean output tokens: 64.00
-Raw latencies: [1.4734465309998086, 1.0433566420001625, 1.0440191809998396]
+Raw latencies: [1.4546179160001884, 1.0371877040001891, 1.0423314659997232]
